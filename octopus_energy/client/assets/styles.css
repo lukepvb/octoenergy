@@ -20,9 +20,9 @@
   background-color: black;
   color: white;
   border: solid black;
-  -webkit-box-shadow: 0px 2px 6px 0px #000000;
-  box-shadow: 0px 2px 6px 0px #000000;
-  z-index: 1;
+  -webkit-box-shadow: 0px 1px 14px 0px #000000;
+  box-shadow: 0px 1px 14px 0px #000000;
+  z-index: 0;
 }
 
 /* NavBar */
@@ -33,4 +33,23 @@
 
 .energy-navbar-title {
   color: darkgrey;
+}
+
+/* BodyContainer */
+.body-container {
+  background-color: black;
+  color: white;
+}
+
+/* Main Image */
+.main-image img {
+  width: 90%;
+  height: 15rem;
+  margin-left: 5%;
+  object-fit: cover;
+  object-position: 10% 10%;
+  -webkit-box-shadow: 0px 1px 7px 0px #000000;
+  box-shadow: 0px 1px 7px 0px #000000;
+  /* -webkit-box-shadow: inset 0px 9px 14px 0px #000000;
+  box-shadow: inset 0px 9px 14px 0px #000000; */
 }
