@@ -1,12 +1,16 @@
 import React from 'react';
-import '../assets/styles';
+import '../client/assets/styles.css';
+import NavContainer from './containers/NavContainer';
+import BodyContainer from './containers/BodyContainer';
 
 const App = (props) => {
   return (
     <div>
-      <h3>This will be my NavContainer</h3>
-      <h1>This will be my BodyContainer</h1>
+      <NavContainer />
+      <BodyContainer />
       <h3>This will be the FooterContainer</h3>
     </div>
   );
 };
+
+export default App;
