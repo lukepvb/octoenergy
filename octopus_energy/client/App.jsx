@@ -1,12 +1,13 @@
 import React from 'react';
 import '../client/assets/styles.css';
 import NavContainer from './containers/NavContainer';
+import BodyContainer from './containers/BodyContainer';
 
 const App = (props) => {
   return (
     <div>
       <NavContainer />
-      <h1>This will be my BodyContainer</h1>
+      <BodyContainer />
       <h3>This will be the FooterContainer</h3>
     </div>
   );

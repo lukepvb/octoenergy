@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
+import NavBar from '../components/NavBar';
 import '../assets/styles.css';
 
 const NavContainer = (props) => {
+  const [collapsed, setCollapsed] = useState(true);
+
+  const toggleNavbar = () => setCollapsed(!collapsed);
+
   return (
     <div className="nav-container">
-      <h3>This will hold my Navbar components</h3>
+      <NavBar collapsed={collapsed} toggleNavbar={toggleNavbar} />
     </div>
   );
 };

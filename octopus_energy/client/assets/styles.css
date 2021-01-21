@@ -7,6 +7,7 @@
   height: 100%;
   justify-content: center;
   display: block;
+  /* background-color: black; */
 }
 
 /* App */
@@ -18,4 +19,18 @@
   height: 100%;
   background-color: black;
   color: white;
+  border: solid black;
+  -webkit-box-shadow: 0px 2px 6px 0px #000000;
+  box-shadow: 0px 2px 6px 0px #000000;
+  z-index: 1;
+}
+
+/* NavBar */
+.navbar-toggler {
+  color: white;
+  border: none;
+}
+
+.energy-navbar-title {
+  color: darkgrey;
 }
