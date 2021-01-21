@@ -1,13 +1,9 @@
 const path = require('path');
 const express = require('express');
 const bodyParser = require('body-parser');
-const mongoose = require('mongoose');
 
 // initialize express
 const app = express();
-
-// bring in the database key and connect w/ mongoose
-// const db = require('./config/keys').mongoURI;
 
 // create a PORT variable for server listener
 const PORT = process.env.PORT || 3000;
