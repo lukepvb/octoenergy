@@ -10,6 +10,8 @@
   /* background-color: black; */
 }
 
+/* Initial styling configured for Iphone 6/7/8 /*
+
 /* App */
 
 /* NavContainer */
@@ -50,6 +52,86 @@
   object-position: 10% 10%;
   -webkit-box-shadow: 0px 1px 7px 0px #000000;
   box-shadow: 0px 1px 7px 0px #000000;
-  /* -webkit-box-shadow: inset 0px 9px 14px 0px #000000;
-  box-shadow: inset 0px 9px 14px 0px #000000; */
+}
+
+/* AddItemContainer */
+.add-item-container {
+  background-color: white;
+  color: black;
+  padding-top: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: -3rem;
+  z-index: -1;
+  width: 95%;
+  margin-left: 2.5%;
+  height: 30rem;
+  justify-items: center;
+}
+
+.item {
+}
+
+.price-and-quantity {
+  /* border: solid black; */
+  max-width: fit-content;
+  float: left;
+}
+
+.price {
+  margin-top: 1.2rem;
+}
+
+.quantity-in-pack {
+  color: black;
+}
+
+.quantity-counter {
+  /* border: solid black; */
+  max-width: fit-content;
+  margin-bottom: 3%;
+  margin-top: 5%;
+  float: left;
+  margin-left: 8%;
+}
+
+.add-to-cart {
+  background-color: black;
+  padding: 0.6rem;
+  color: white;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 5px;
+  border: solid black;
+  margin-top: 8%;
+  font-size: xx-large;
+}
+
+.buttons {
+  display: inline-flex;
+  max-width: fit-content;
+}
+
+.minus-button {
+  background-color: black;
+  border: solid black;
+  border-radius: 6px;
+  color: white;
+  width: 5rem;
+  margin: 3%;
+  font-size: xx-large;
+  margin-right: 4%;
+  padding: 0.6rem;
+}
+
+.plus-button {
+  background-color: black;
+  border: solid black;
+  border-radius: 6px;
+  color: white;
+  width: 5rem;
+  margin: 3%;
+  font-size: xx-large;
+  margin-right: 4%;
+  padding: 0.6rem;
 }
