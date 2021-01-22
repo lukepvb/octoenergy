@@ -1,6 +1,7 @@
 import React from 'react';
 import MainImage from '../components/MainImage';
 import AddItemContainer from '../containers/AddItemContainer';
+import DescriptionContainer from '../containers/DescriptionContainer';
 import '../assets/styles.css';
 
 const BodyContainer = (props) => {
@@ -8,6 +9,11 @@ const BodyContainer = (props) => {
     <div className="body-container">
       <MainImage />
       <AddItemContainer />
+      <DescriptionContainer />
+      {/* <SpecificationsContainer />
+      <CarouselContainer />
+      <ViewMoreButton />
+      */}
     </div>
   );
 };

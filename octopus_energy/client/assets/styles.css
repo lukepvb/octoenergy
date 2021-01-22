@@ -67,9 +67,7 @@
   margin-left: 2.5%;
   height: 30rem;
   justify-items: center;
-}
-
-.item {
+  border-radius: 0px 0px 8px 8px;
 }
 
 .price-and-quantity {
@@ -103,7 +101,7 @@
   margin-left: 5%;
   border-radius: 5px;
   border: solid black;
-  margin-top: 8%;
+  margin-top: 6%;
   font-size: xx-large;
 }
 
@@ -134,4 +132,31 @@
   font-size: xx-large;
   margin-right: 4%;
   padding: 0.6rem;
+}
+
+/* DescriptionContainer */
+
+.description-container {
+  background-color: black;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+
+/* .description h3 {
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  font-weight: lighter;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+} */
+
+.more-info-a {
+  text-decoration: underline dodgerblue;
+  display: flex;
+  color: dodgerblue;
+  font-size: x-large;
+  justify-content: center;
 }

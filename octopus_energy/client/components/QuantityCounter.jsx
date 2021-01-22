@@ -8,6 +8,7 @@ const QuantityCounter = (props) => {
     <div className="quantity-counter">
       <h4>
         <strong>Quantity</strong>
+        {'       '}
         {count}
       </h4>
       <div className="buttons">
