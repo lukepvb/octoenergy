@@ -143,20 +143,38 @@
   margin-top: 15%;
 }
 
-/* .description h3 {
-  background-color: black;
-  color: white;
-  overflow: hidden;
-  font-weight: lighter;
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-} */
-
 .more-info-a {
   text-decoration: underline dodgerblue;
   display: flex;
   color: dodgerblue;
   font-size: x-large;
   justify-content: center;
+}
+
+/* Specifications Container */
+
+.specifications {
+  margin-top: 8%;
+  background-color: black;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+
+.key {
+  display: inline-block;
+  width: 34.2%;
+  border: solid white;
+  font-weight: lighter;
+}
+
+.value {
+  display: inline-block;
+  margin-left: 20%;
+}
+
+.horizontal-line {
+  color: white;
+  font-weight: bolder;
+  z-index: 5;
 }

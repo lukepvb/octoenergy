@@ -2,6 +2,7 @@ import React from 'react';
 import MainImage from '../components/MainImage';
 import AddItemContainer from '../containers/AddItemContainer';
 import DescriptionContainer from '../containers/DescriptionContainer';
+import SpecificationsContainer from '../containers/SpecificationsContainer';
 import '../assets/styles.css';
 
 const BodyContainer = (props) => {
@@ -10,10 +11,9 @@ const BodyContainer = (props) => {
       <MainImage />
       <AddItemContainer />
       <DescriptionContainer />
-      {/* <SpecificationsContainer />
-      <CarouselContainer />
-      <ViewMoreButton />
-      */}
+      <SpecificationsContainer />
+      {/* <CarouselContainer />
+      <ViewMoreButton /> */}
     </div>
   );
 };
