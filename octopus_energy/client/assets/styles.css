@@ -7,4 +7,266 @@
   height: 100%;
   justify-content: center;
   display: block;
+  /* background-color: black; */
+}
+
+/* Initial styling configured for Iphone 6/7/8 plus
+
+  Moving forward, I would use Media Queries for different screen sizes, and use the inspector 
+  to modify any components to adapt accordingly (ie, for progressive web rendering and different size screens
+
+  Additionally, I would add specific fonts using @font-face and specific colors that were passed along from UI team - for the purposes of this
+  take home, I went primarily by eye for the different components, and would go back and put specific fonts/sizes in based on notes from UI Team
+  
+*/
+
+/* App */
+
+/* NavContainer */
+
+.nav-container {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  border: solid black;
+  -webkit-box-shadow: 0px 1px 14px 0px #000000;
+  box-shadow: 0px 1px 14px 0px #000000;
+  z-index: 0;
+}
+
+/* NavBar */
+.navbar-toggler {
+  color: white;
+  border: none;
+}
+
+.energy-navbar-title {
+  color: darkgrey;
+}
+
+/* BodyContainer */
+.body-container {
+  background-color: black;
+  color: white;
+}
+
+/* Main Image */
+.main-image img {
+  width: 90%;
+  height: 15rem;
+  margin-left: 5%;
+  object-fit: cover;
+  object-position: 10% 10%;
+  -webkit-box-shadow: 0px 1px 7px 0px #000000;
+  box-shadow: 0px 1px 7px 0px #000000;
+}
+
+/* AddItemContainer */
+.add-item-container {
+  background-color: white;
+  color: black;
+  padding-top: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: -3rem;
+  z-index: -1;
+  width: 95%;
+  margin-left: 2.5%;
+  height: 30rem;
+  justify-items: center;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.price-and-quantity {
+  /* border: solid black; */
+  max-width: fit-content;
+  float: left;
+}
+
+.price {
+  margin-top: 1.2rem;
+}
+
+.quantity-in-pack {
+  color: black;
+}
+
+.quantity-counter {
+  /* border: solid black; */
+  max-width: fit-content;
+  margin-bottom: 3%;
+  margin-top: 5%;
+  float: left;
+  margin-left: 8%;
+}
+
+.add-to-cart {
+  background-color: black;
+  padding: 0.6rem;
+  color: white;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 5px;
+  border: solid black;
+  margin-top: 6%;
+  font-size: xx-large;
+}
+
+.buttons {
+  display: inline-flex;
+  max-width: fit-content;
+}
+
+.minus-button {
+  background-color: black;
+  border: solid black;
+  border-radius: 6px;
+  color: white;
+  width: 5rem;
+  margin: 3%;
+  font-size: xx-large;
+  margin-right: 4%;
+  padding: 0.6rem;
+}
+
+.plus-button {
+  background-color: black;
+  border: solid black;
+  border-radius: 6px;
+  color: white;
+  width: 5rem;
+  margin: 3%;
+  font-size: xx-large;
+  margin-right: 4%;
+  padding: 0.6rem;
+}
+
+/* DescriptionContainer */
+
+.description-container {
+  background-color: black;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+
+.more-info-a {
+  text-decoration: underline dodgerblue;
+  display: flex;
+  color: dodgerblue;
+  font-size: x-large;
+  justify-content: center;
+}
+
+/* Specifications Container */
+
+.specifications {
+  margin-top: 8%;
+  background-color: black;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+
+.specs-title {
+  margin-bottom: 6%;
+}
+
+.key {
+  display: inline-block;
+  width: 34.2%;
+  font-weight: lighter;
+}
+
+.value {
+  display: inline-block;
+  margin-left: 20%;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 100%;
+  background-color: darkgrey;
+  height: 3px;
+  padding: -3% -3%;
+}
+
+/* Carousel Container */
+
+.pre-carousel-title {
+  margin-top: 8%;
+  background-color: black;
+  max-width: 100%;
+  font-weight: lighter;
+  font-size: 260%;
+  margin-top: 15%;
+  text-align: center;
+}
+
+.carousel-div {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.card-img-container {
+  width: 100%;
+  height: 4%;
+  border: black solid;
+  border-radius: 25px;
+}
+
+.product-card-div {
+  text-align: left;
+}
+
+.card-img {
+  height: 18rem;
+  object-fit: cover;
+  border: solid black 1px 5px;
+}
+
+.product-title {
+  color: black;
+  font-weight: bolder;
+}
+
+.product-price {
+  color: black;
+  font-weight: lighter;
+}
+
+/* View More Button */
+
+.view-more-button-div {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-color: black;
+  height: 12rem;
+}
+
+.view-more {
+  background-color: white;
+  width: 90%;
+  height: 8rem;
+  padding: 5%;
+  border: solid;
+  border-radius: 0.5rem;
+}
+
+/* Footer Container */
+
+.footer-container-div {
+  background-color: #282828;
+  color: lightgray;
+  font-weight: lighter;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  height: 10.3rem;
+  margin-top: -9.9%;
 }
