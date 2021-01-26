@@ -40,14 +40,14 @@ const Specifications = (props) => {
 
   return (
     <div className="specifications">
-      <h2>
+      <h2 className="specs-title">
         <strong>Specifications</strong>
       </h2>
 
       <h3 style={style}>{specComponents}</h3>
 
       <a className="more-info-a" onClick={() => props.handleDropdown(status)}>
-        Show more info
+        Show{status ? ' more ' : ' less '}info
       </a>
     </div>
   );

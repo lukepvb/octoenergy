@@ -12,9 +12,12 @@ const Description = (props) => {
         <strong>Description</strong>
       </h2>
       <h3 style={style}>{description}</h3>
-      <a className="more-info-a" onClick={() => props.handleDropdown(status)}>
-        Show more info
-      </a>
+
+      <div>
+        <a className="more-info-a" onClick={() => props.handleDropdown(status)}>
+          Show{status ? ' more ' : ' less '}info
+        </a>
+      </div>
     </div>
   );
 };
