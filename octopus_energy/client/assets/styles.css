@@ -10,13 +10,13 @@
   /* background-color: black; */
 }
 
-/* Initial styling configured for Iphone 6/7/8 plus
+/* Initial styling configured for Iphone 6/7/8 plus and IPhone x
 
-  Moving forward, I would use Media Queries for different screen sizes, and use the inspector 
+  Moving forward, I would continue to use Media Queries for different screen sizes, and use the inspector 
   to modify any components to adapt accordingly (ie, for progressive web rendering and different size screens
 
-  Additionally, I would add specific fonts using @font-face and specific colors that were passed along from UI team - for the purposes of this
-  take home, I went primarily by eye for the different components, and would go back and put specific fonts/sizes in based on notes from UI Team
+  Additionally, I would add specific fonts using @font-face and colors that were passed along from UI team - for the purposes of this
+  take home, I have gone by eye from the given PDF
   
 */
 
@@ -63,17 +63,19 @@
 }
 
 /* AddItemContainer */
+
 .add-item-container {
   background-color: white;
   color: black;
   padding-top: 4rem;
+  padding-bottom: 3rem;
   padding-left: 1rem;
   padding-right: 1rem;
   margin-top: -3rem;
   z-index: -1;
   width: 95%;
   margin-left: 2.5%;
-  height: 30rem;
+  max-height: fit-content;
   justify-items: center;
   border-radius: 0px 0px 8px 8px;
 }
@@ -97,8 +99,7 @@
   max-width: fit-content;
   margin-bottom: 3%;
   margin-top: 5%;
-  float: left;
-  margin-left: 8%;
+  float: right;
 }
 
 .add-to-cart {
@@ -269,4 +270,54 @@ hr {
   padding-bottom: 6%;
   height: 10.3rem;
   margin-top: -9.9%;
+}
+
+/* ----------- iPhone X ----------- 
+
+This is a brief example of how I would use media queries to modify specific
+components CSS based on size of screen. 
+
+*/
+
+/* Portrait */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  /* Add Item Container */
+
+  .item {
+    margin-top: 1rem;
+  }
+
+  .add-item-container {
+    height: 31rem;
+  }
+
+  .price-and-quantity {
+    width: 10rem;
+    float: left;
+  }
+
+  /* Specifications Container */
+
+  .value {
+    display: inline-block;
+    margin-left: 12%;
+  }
+
+  /* DescriptionContainer */
+
+  .description-container {
+    background-color: black;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 25%;
+  }
+
+  .more-info-a {
+    text-decoration: underline dodgerblue;
+    display: flex;
+    color: dodgerblue;
+    font-size: x-large;
+    justify-content: center;
+  }
 }
