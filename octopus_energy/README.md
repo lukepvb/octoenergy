@@ -21,5 +21,17 @@ Thank you for your consideration!
 
 - Luke
 
+![image-1](https://user-images.githubusercontent.com/50924085/105798861-f99c0300-5f47-11eb-8c5c-27ac027404d5.png)
+
+![image-2](https://user-images.githubusercontent.com/50924085/105798869-fe60b700-5f47-11eb-88cb-325aa2253ddb.png)
+
+![image-3](https://user-images.githubusercontent.com/50924085/105798878-04569800-5f48-11eb-8287-85851f860463.png)
+
+![image-4](https://user-images.githubusercontent.com/50924085/105798907-1801fe80-5f48-11eb-9a95-3166ca65ae56.png)
+
+![image-5](https://user-images.githubusercontent.com/50924085/105798925-218b6680-5f48-11eb-9d4a-3964f678339a.png)
+
+![image-6](https://user-images.githubusercontent.com/50924085/105798940-2819de00-5f48-11eb-9460-fc49eee01414.png)
+
 
 
